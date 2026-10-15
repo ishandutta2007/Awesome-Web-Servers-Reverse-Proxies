@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Web-Servers-Reverse-Proxies/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Web-Servers-Reverse-Proxies?style=for-the-badge&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Servers-Reverse-Proxies/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Web-Servers-Reverse-Proxies?style=for-the-badge&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Web-Servers-Reverse-Proxies/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Web-Servers-Reverse-Proxies?style=for-the-badge&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Web-Servers-Reverse-Proxies/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Web-Servers-Reverse-Proxies/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /></a>
@@ -80,73 +80,73 @@ The following hosted platforms and enterprise managed reverse proxy / ADC networ
 
 The following open-source web servers, reverse proxies, and ingress gateways are **sorted in descending order by GitHub stargazer count**.
 
-1. **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
+1. **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub_Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
    ⚡ **Fast, multi-platform HTTP/1–2–3 web server with automated HTTPS by default.** Written in Go with memory safety guarantees, Caddy provisions and renews TLS certificates automatically via Let's Encrypt / ZeroSSL, features a clean human-readable `Caddyfile`, dynamic JSON config API, and production reverse proxying.
 
-2. **[Traefik](https://github.com/traefik/traefik)** [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+2. **[Traefik](https://github.com/traefik/traefik)** [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
    🐳 **The leading cloud-native application proxy and dynamic load balancer.** Integrates directly with container orchestrators (Kubernetes, Docker, Swarm, Nomad, Consul) to automatically discover backends and configure routes in real time without downtime or service reloads.
 
-3. **[Kong](https://github.com/Kong/kong)** [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
+3. **[Kong](https://github.com/Kong/kong)** [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
    🦍 **Cloud-native API gateway and reverse proxy platform.** Built on top of Nginx and OpenResty, Kong delivers enterprise-grade request routing, authentication (JWT, OAuth2), rate limiting, logging, and an extensive ecosystem of Lua and Go plugins.
 
-4. **[Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)** [![GitHub stars](https://img.shields.io/github/stars/NginxProxyManager/nginx-proxy-manager?style=social&color=white)](https://github.com/NginxProxyManager/nginx-proxy-manager/stargazers)  
+4. **[Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/NginxProxyManager/nginx-proxy-manager?style=social&color=white)](https://github.com/NginxProxyManager/nginx-proxy-manager/stargazers)  
    🖥️ **Self-hosted web UI for managing Nginx reverse proxy hosts.** Simplifies reverse proxy configuration, automated Let's Encrypt SSL certificate provisioning, access lists, HTTP basic auth, and custom forwarding rules inside a containerized setup.
 
-5. **[Nginx](https://github.com/nginx/nginx)** [![GitHub stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)  
+5. **[Nginx](https://github.com/nginx/nginx)** [![GitHub_Stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)  
    🌐 **The industry-standard, high-concurrency web server and reverse proxy.** Powers hundreds of millions of web applications worldwide. Renowned for its asynchronous event-driven architecture, minimal RAM overhead, fast static file serving, and rich module ecosystem.
 
-6. **[Envoy](https://github.com/envoyproxy/envoy)** [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
+6. **[Envoy](https://github.com/envoyproxy/envoy)** [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
    ☸️ **CNCF graduated high-performance L4/L7 edge and service proxy.** Engineered in C++ for modern microservices and service meshes (e.g., Istio). Features dynamic discovery services (xDS APIs), advanced load balancing, health checking, and first-class gRPC support.
 
-7. **[Pingora](https://github.com/cloudflare/pingora)** [![GitHub stars](https://img.shields.io/github/stars/cloudflare/pingora?style=social&color=white)](https://github.com/cloudflare/pingora/stargazers)  
+7. **[Pingora](https://github.com/cloudflare/pingora)** [![GitHub_Stars](https://img.shields.io/github/stars/cloudflare/pingora?style=social&color=white)](https://github.com/cloudflare/pingora/stargazers)  
    🦀 **Ultra-fast, memory-safe asynchronous network proxy framework by Cloudflare.** Written in Rust to replace Nginx across Cloudflare's global edge. Handles trillions of requests with zero buffer overflows, native HTTP/1-2-3 handling, and high-efficiency connection pooling.
 
-8. **[nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)** [![GitHub stars](https://img.shields.io/github/stars/nginx-proxy/nginx-proxy?style=social&color=white)](https://github.com/nginx-proxy/nginx-proxy/stargazers)  
+8. **[nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)** [![GitHub_Stars](https://img.shields.io/github/stars/nginx-proxy/nginx-proxy?style=social&color=white)](https://github.com/nginx-proxy/nginx-proxy/stargazers)  
    🔄 **Automated Nginx reverse proxy generator for Docker containers.** Listens to Docker daemon socket events and automatically generates Nginx virtual host configurations whenever web containers start, stop, or restart.
 
-9. **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
+9. **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
    🚀 **Dynamic, real-time, high-performance API gateway and reverse proxy.** Provides dynamic routing, traffic splitting, canary releases, rate limiting, and zero-downtime hot-reloading powered by Nginx and LuaJIT.
 
-10. **[OAuth2 Proxy](https://github.com/oauth2-proxy/oauth2-proxy)** [![GitHub stars](https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=social&color=white)](https://github.com/oauth2-proxy/oauth2-proxy/stargazers)  
+10. **[OAuth2 Proxy](https://github.com/oauth2-proxy/oauth2-proxy)** [![GitHub_Stars](https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=social&color=white)](https://github.com/oauth2-proxy/oauth2-proxy/stargazers)  
     🔑 **Reverse proxy providing authentication with OpenID Connect &amp; OAuth2 providers.** Easily front-ends upstream web applications with authentication layers from Google, GitHub, Azure AD, Keycloak, or Okta without modifying application code.
 
-11. **[OpenResty](https://github.com/openresty/openresty)** [![GitHub stars](https://img.shields.io/github/stars/openresty/openresty?style=social&color=white)](https://github.com/openresty/openresty/stargazers)  
+11. **[OpenResty](https://github.com/openresty/openresty)** [![GitHub_Stars](https://img.shields.io/github/stars/openresty/openresty?style=social&color=white)](https://github.com/openresty/openresty/stargazers)  
     🌙 **Full-fledged web platform integrating standard Nginx core with LuaJIT.** Enables developers to build ultra-high-performance web servers, programmable reverse proxies, and dynamic gateway filters using the Lua language.
 
-12. **[H2O](https://github.com/h2o/h2o)** [![GitHub stars](https://img.shields.io/github/stars/h2o/h2o?style=social&color=white)](https://github.com/h2o/h2o/stargazers)  
+12. **[H2O](https://github.com/h2o/h2o)** [![GitHub_Stars](https://img.shields.io/github/stars/h2o/h2o?style=social&color=white)](https://github.com/h2o/h2o/stargazers)  
     💨 **State-of-the-art optimized HTTP/1, HTTP/2, and HTTP/3 server.** Engineered in C for extreme performance, pioneering socket prioritization, TLS 1.3 0-RTT optimization, and minimal CPU cache misses.
 
-13. **[HAProxy](https://github.com/haproxy/haproxy)** [![GitHub stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)  
+13. **[HAProxy](https://github.com/haproxy/haproxy)** [![GitHub_Stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)  
     ⚖️ **The gold standard for high-performance TCP and HTTP load balancing.** Legendary reliability and microsecond latency for layer 4 and layer 7 traffic routing, advanced health checking, stick tables, and SSL/TLS acceleration.
 
-14. **[BFE (Baidu Front End)](https://github.com/bfenetworks/bfe)** [![GitHub stars](https://img.shields.io/github/stars/bfenetworks/bfe?style=social&color=white)](https://github.com/bfenetworks/bfe/stargazers)  
+14. **[BFE (Baidu Front End)](https://github.com/bfenetworks/bfe)** [![GitHub_Stars](https://img.shields.io/github/stars/bfenetworks/bfe?style=social&color=white)](https://github.com/bfenetworks/bfe/stargazers)  
     🛡️ **Enterprise-level layer 7 reverse proxy and load balancer in Go.** Originating from Baidu to handle over 1 trillion requests per day, featuring condition-based routing rules, multi-tenant isolation, and automated telemetry.
 
-15. **[Tinyproxy](https://github.com/tinyproxy/tinyproxy)** [![GitHub stars](https://img.shields.io/github/stars/tinyproxy/tinyproxy?style=social&color=white)](https://github.com/tinyproxy/tinyproxy/stargazers)  
+15. **[Tinyproxy](https://github.com/tinyproxy/tinyproxy)** [![GitHub_Stars](https://img.shields.io/github/stars/tinyproxy/tinyproxy?style=social&color=white)](https://github.com/tinyproxy/tinyproxy/stargazers)  
     🪶 **Lightweight, minimal-footprint HTTP/HTTPS reverse and forward proxy.** Designed for POSIX operating systems, embedded appliances, IoT devices, and containerized sidecars requiring minimal RAM usage.
 
-16. **[Pomerium](https://github.com/pomerium/pomerium)** [![GitHub stars](https://img.shields.io/github/stars/pomerium/pomerium?style=social&color=white)](https://github.com/pomerium/pomerium/stargazers)  
+16. **[Pomerium](https://github.com/pomerium/pomerium)** [![GitHub_Stars](https://img.shields.io/github/stars/pomerium/pomerium?style=social&color=white)](https://github.com/pomerium/pomerium/stargazers)  
     🔒 **Identity-aware, context-driven reverse proxy for Zero Trust architectures.** Secures internal enterprise applications and APIs by verifying user identity and device posture on every single request without traditional VPNs.
 
-17. **[Emissary-ingress](https://github.com/emissary-ingress/emissary)** [![GitHub stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)  
+17. **[Emissary-ingress](https://github.com/emissary-ingress/emissary)** [![GitHub_Stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)  
     🚪 **CNCF-incubated Kubernetes-native API gateway built on Envoy Proxy.** Translates Kubernetes custom resource definitions (CRDs) into dynamic Envoy configurations for ingress routing, rate limiting, and observability.
 
-18. **[Varnish Cache](https://github.com/varnishcache/varnish-cache)** [![GitHub stars](https://img.shields.io/github/stars/varnishcache/varnish-cache?style=social&color=white)](https://github.com/varnishcache/varnish-cache/stargazers)  
+18. **[Varnish Cache](https://github.com/varnishcache/varnish-cache)** [![GitHub_Stars](https://img.shields.io/github/stars/varnishcache/varnish-cache?style=social&color=white)](https://github.com/varnishcache/varnish-cache/stargazers)  
     ⚡ **High-performance HTTP accelerator and reverse proxy caching engine.** Designed specifically for content-heavy dynamic websites. Uses the Varnish Configuration Language (VCL) to parse, cache, and serve pages directly from RAM at line rate.
 
-19. **[Apache HTTP Server](https://github.com/apache/httpd)** [![GitHub stars](https://img.shields.io/github/stars/apache/httpd?style=social&color=white)](https://github.com/apache/httpd/stargazers)  
+19. **[Apache HTTP Server](https://github.com/apache/httpd)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/httpd?style=social&color=white)](https://github.com/apache/httpd/stargazers)  
     🏛️ **The foundational modular web server that built the modern web.** Features robust process models (`mpm_event`, `mpm_worker`), `mod_proxy` reverse proxying, virtual hosting, and `.htaccess` per-directory decentralized configuration.
 
-20. **[Skipper](https://github.com/zalando/skipper)** [![GitHub stars](https://img.shields.io/github/stars/zalando/skipper?style=social&color=white)](https://github.com/zalando/skipper/stargazers)  
+20. **[Skipper](https://github.com/zalando/skipper)** [![GitHub_Stars](https://img.shields.io/github/stars/zalando/skipper?style=social&color=white)](https://github.com/zalando/skipper/stargazers)  
     🛍️ **Extensible HTTP router and reverse proxy engineered by Zalando.** Supports zero-downtime routing rule updates, customized request filters, canary deployments, and high-concurrency e-commerce routing.
 
-21. **[Squid](https://github.com/squid-cache/squid)** [![GitHub stars](https://img.shields.io/github/stars/squid-cache/squid?style=social&color=white)](https://github.com/squid-cache/squid/stargazers)  
+21. **[Squid](https://github.com/squid-cache/squid)** [![GitHub_Stars](https://img.shields.io/github/stars/squid-cache/squid?style=social&color=white)](https://github.com/squid-cache/squid/stargazers)  
     🦑 **Pioneering caching proxy for web protocols.** Supports HTTP, HTTPS, FTP, and TLS inspection with extensive access control lists (ACLs) and bandwidth management for forward, transparent, and reverse proxy roles.
 
-22. **[Envoy Gateway](https://github.com/envoyproxy/gateway)** [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers)  
+22. **[Envoy Gateway](https://github.com/envoyproxy/gateway)** [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers)  
     🎯 **Standardized Kubernetes Gateway API controller powered by Envoy Proxy.** Simplifies the management and deployment of Envoy as a cloud-native ingress controller with multi-tenant route delegation.
 
-23. **[Apache Traffic Server](https://github.com/apache/trafficserver)** [![GitHub stars](https://img.shields.io/github/stars/apache/trafficserver?style=social&color=white)](https://github.com/apache/trafficserver/stargazers)  
+23. **[Apache Traffic Server](https://github.com/apache/trafficserver)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/trafficserver?style=social&color=white)](https://github.com/apache/trafficserver/stargazers)  
     📡 **Enterprise-grade caching proxy and reverse proxy server.** Used by major telecoms, ISPs, and media delivery backbones to handle petabytes of high-throughput video streaming and asset caching.
 
 ---
@@ -224,7 +224,7 @@ Contributions are always welcome! Help us keep this directory comprehensive and 
 2. 🌿 **Create a descriptive feature branch** (`git checkout -b feature/add-new-proxy`).
 3. 📝 **Add your project or SaaS tool** in the appropriate section:
    - Provide the project name, official website / GitHub URL.
-   - For open source: add the official GitHub star badge and link to stargazers.
+   - For open source: add the official GitHub Stars_Badge and link to stargazers.
    - For SaaS: include specific starting pricing, explicit free tier limits, and verifiable company valuation / revenue metrics.
 4. 🧪 **Check formatting**: ensure Markdown tables and links render cleanly.
 5. 🚀 **Submit a Pull Request** with a concise description of your additions.
