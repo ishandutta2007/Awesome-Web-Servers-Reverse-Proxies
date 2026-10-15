@@ -1,6 +1,6 @@
 # Awesome-Web-Servers-Reverse-Proxies
 
-## Top Workflow Orchestration Ecosystem
+### Top Workflow Orchestration Ecosystem
 
 
 
@@ -209,112 +209,220 @@ Star the repo if you find it useful!
 Let's expand open workflow orchestration while recognizing the managed convenience that hosted Airflow, Prefect, Dagster, and Temporal clouds deliver.
 # Awesome-Web-Servers-Reverse-Proxies
 
-# Top Web Servers & Reverse Proxies Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on HTTP Servers, Reverse Proxying, TLS Termination, Edge CDN Delivery & Application Gateways*  
-**Last updated: October 2026**
-
-This repository tracks notable **SaaS/CDN platforms** and **open-source projects** for **Web Servers & Reverse Proxies**. These systems terminate TLS, route traffic, cache content, and front application backends at the edge or in your data center.
-
-**Examples** include Cloudflare, Fastly, Akamai, AWS CloudFront, F5 NGINX Plus, Imperva, Sucuri, KeyCDN, StackPath, and **Caddy** (`caddyserver/caddy`)—a fast, multi-platform HTTP/1–2–3 web server with automatic HTTPS.
-
-**Open-source emphasis**: Origin and edge software is dominated by open source. **Nginx**, **Caddy**, **Traefik**, **HAProxy**, **Apache httpd**, **Envoy**, and **Varnish** power a large share of the public web. This section is heavily expanded.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Cloudflare, Fastly, Akamai, AWS CloudFront](https://www.cloudflare.com/)**  
-  Global CDN and edge platforms—caching, DDoS protection, TLS, and programmable edge logic at massive scale.
-
-- **[F5 NGINX Plus, Imperva, Sucuri](https://www.nginx.com/)**  
-  Commercial application delivery, WAF, and security-focused proxy offerings (NGINX Plus is the commercial edition of open Nginx).
-
-- **[KeyCDN, StackPath, other regional CDNs](https://www.keycdn.com/)**  
-  Content delivery and edge security services for mid-market and specialized workloads.
-
-- **[Other managed edge & ADC platforms](https://aws.amazon.com/cloudfront/)**  
-  Additional cloud load balancers and reverse-proxy-as-a-service products.
-
-## Open-Source GitHub Projects
-
-### Web Servers & General-Purpose Proxies
-
-- **[Caddy](https://github.com/caddyserver/caddy)**  
-  Fast, multi-platform open web server with automatic HTTPS (Let's Encrypt by default), HTTP/1–2–3, and a simple configuration model.
-
-- **[Nginx](https://github.com/nginx/nginx)**  
-  Ubiquitous open web server and reverse proxy—high performance, rich module ecosystem, and the foundation of many commercial ADCs.
-
-- **[Apache HTTP Server](https://github.com/apache/httpd)**  
-  Long-standing open web server with flexible modules, virtual hosting, and broad platform support.
-
-- **[Traefik](https://github.com/traefik/traefik)**  
-  Open cloud-native reverse proxy and load balancer—automatic service discovery for Kubernetes, Docker, and dynamic backends.
-
-- **[HAProxy](https://github.com/haproxy/haproxy)**  
-  High-performance open TCP/HTTP load balancer and reverse proxy—legendary reliability for layer 4 and layer 7 routing.
-
-- **[Envoy](https://github.com/envoyproxy/envoy)**  
-  Open edge and service proxy designed for cloud-native apps—L7 features, observability, and the data plane for many meshes.
-
-### Caching, Edge & Specialized Proxies
-
-- **[Varnish Cache](https://github.com/varnishcache/varnish-cache)**  
-  Open HTTP accelerator focused on caching—widely used in front of origin servers for dynamic and static content.
-
-- **[OpenResty](https://github.com/openresty/openresty)**  
-  Nginx core bundled with LuaJIT—scriptable reverse proxy and application gateway patterns.
-
-- **[Squid](https://github.com/squid-cache/squid)**  
-  Open caching proxy for web and related protocols—still used for forward and reverse proxy scenarios.
-
-- **[Pomerium / oauth2-proxy](https://github.com/pomerium/pomerium)**  
-  Open identity-aware proxies for securing internal apps with modern SSO.
-
-- **[Caddy + CrowdSec / security modules](https://github.com/caddyserver/caddy)**  
-  Patterns combining open servers with open security tooling at the edge.
-
-- **[Ats (Apache Traffic Server)](https://github.com/apache/trafficserver)**  
-  Open fast, scalable caching proxy server used by large content providers.
-
-### Additional Strong Open-Source Options
-
-- **Simple automatic HTTPS**: Caddy.
-- **Maximum deployment familiarity**: Nginx.
-- **Cloud-native ingress**: Traefik or Envoy-based gateways.
-- **Pure load balancing**: HAProxy.
-- **HTTP caching**: Varnish.
-- **Composable stacks**: Caddy/Nginx/Traefik → app servers; or CDN (Cloudflare/Fastly) → origin (Nginx/Caddy).
-- Global CDN SaaS still leads for anycast PoPs, volumetric DDoS absorption, and managed WAF rulesets.
-
-**Frameworks for building custom systems**:  
-**Caddy** for automatic TLS and modern defaults; **Nginx** or **HAProxy** for battle-tested proxying; **Traefik** / **Envoy** for dynamic cloud-native routing; **Varnish** for caching layers.  
-Fully open origin and reverse-proxy stacks are the industry norm; CDNs complement them at the edge.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Reverse proxies and edge servers are high-value attack targets. Keep software updated, restrict admin interfaces, configure TLS carefully, and rate-limit aggressively. Misconfigured proxies can expose internal services.
-- Open-source servers offer full control and transparency. Commercial CDNs and ADCs shift global capacity and managed security to the vendor. Neither replaces secure application design and least-privilege networking.
-
----
-
-**Made for platform engineers, SREs, and anyone putting HTTP services on the internet.**  
+## Top Web Servers & Reverse Proxies Ecosystem
+
+
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+
+*Focused on HTTP Servers, Reverse Proxying, TLS Termination, Edge CDN Delivery & Application Gateways*  
+
+**Last updated: October 2026**
+
+
+
+This repository tracks notable **SaaS/CDN platforms** and **open-source projects** for **Web Servers & Reverse Proxies**. These systems terminate TLS, route traffic, cache content, and front application backends at the edge or in your data center.
+
+
+
+**Examples** include Cloudflare, Fastly, Akamai, AWS CloudFront, F5 NGINX Plus, Imperva, Sucuri, KeyCDN, StackPath, and **Caddy** (`caddyserver/caddy`)—a fast, multi-platform HTTP/1–2–3 web server with automatic HTTPS.
+
+
+
+**Open-source emphasis**: Origin and edge software is dominated by open source. **Nginx**, **Caddy**, **Traefik**, **HAProxy**, **Apache httpd**, **Envoy**, and **Varnish** power a large share of the public web. This section is heavily expanded.
+
+
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+
+
+## Table of Contents
+
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+
+- [Open-Source GitHub Projects](#open-source-github-projects)
+
+- [How to Contribute](#how-to-contribute)
+
+- [Disclaimer](#disclaimer)
+
+
+
+## SaaS/Hosted Platforms
+
+
+
+- **[Cloudflare, Fastly, Akamai, AWS CloudFront](https://www.cloudflare.com/)**  
+
+  Global CDN and edge platforms—caching, DDoS protection, TLS, and programmable edge logic at massive scale.
+
+
+
+- **[F5 NGINX Plus, Imperva, Sucuri](https://www.nginx.com/)**  
+
+  Commercial application delivery, WAF, and security-focused proxy offerings (NGINX Plus is the commercial edition of open Nginx).
+
+
+
+- **[KeyCDN, StackPath, other regional CDNs](https://www.keycdn.com/)**  
+
+  Content delivery and edge security services for mid-market and specialized workloads.
+
+
+
+- **[Other managed edge & ADC platforms](https://aws.amazon.com/cloudfront/)**  
+
+  Additional cloud load balancers and reverse-proxy-as-a-service products.
+
+
+
+## Open-Source GitHub Projects
+
+
+
+### Web Servers & General-Purpose Proxies
+
+
+
+- **[Caddy](https://github.com/caddyserver/caddy)**  
+
+  Fast, multi-platform open web server with automatic HTTPS (Let's Encrypt by default), HTTP/1–2–3, and a simple configuration model.
+
+
+
+- **[Nginx](https://github.com/nginx/nginx)**  
+
+  Ubiquitous open web server and reverse proxy—high performance, rich module ecosystem, and the foundation of many commercial ADCs.
+
+
+
+- **[Apache HTTP Server](https://github.com/apache/httpd)**  
+
+  Long-standing open web server with flexible modules, virtual hosting, and broad platform support.
+
+
+
+- **[Traefik](https://github.com/traefik/traefik)**  
+
+  Open cloud-native reverse proxy and load balancer—automatic service discovery for Kubernetes, Docker, and dynamic backends.
+
+
+
+- **[HAProxy](https://github.com/haproxy/haproxy)**  
+
+  High-performance open TCP/HTTP load balancer and reverse proxy—legendary reliability for layer 4 and layer 7 routing.
+
+
+
+- **[Envoy](https://github.com/envoyproxy/envoy)**  
+
+  Open edge and service proxy designed for cloud-native apps—L7 features, observability, and the data plane for many meshes.
+
+
+
+### Caching, Edge & Specialized Proxies
+
+
+
+- **[Varnish Cache](https://github.com/varnishcache/varnish-cache)**  
+
+  Open HTTP accelerator focused on caching—widely used in front of origin servers for dynamic and static content.
+
+
+
+- **[OpenResty](https://github.com/openresty/openresty)**  
+
+  Nginx core bundled with LuaJIT—scriptable reverse proxy and application gateway patterns.
+
+
+
+- **[Squid](https://github.com/squid-cache/squid)**  
+
+  Open caching proxy for web and related protocols—still used for forward and reverse proxy scenarios.
+
+
+
+- **[Pomerium / oauth2-proxy](https://github.com/pomerium/pomerium)**  
+
+  Open identity-aware proxies for securing internal apps with modern SSO.
+
+
+
+- **[Caddy + CrowdSec / security modules](https://github.com/caddyserver/caddy)**  
+
+  Patterns combining open servers with open security tooling at the edge.
+
+
+
+- **[Ats (Apache Traffic Server)](https://github.com/apache/trafficserver)**  
+
+  Open fast, scalable caching proxy server used by large content providers.
+
+
+
+### Additional Strong Open-Source Options
+
+
+
+- **Simple automatic HTTPS**: Caddy.
+
+- **Maximum deployment familiarity**: Nginx.
+
+- **Cloud-native ingress**: Traefik or Envoy-based gateways.
+
+- **Pure load balancing**: HAProxy.
+
+- **HTTP caching**: Varnish.
+
+- **Composable stacks**: Caddy/Nginx/Traefik → app servers; or CDN (Cloudflare/Fastly) → origin (Nginx/Caddy).
+
+- Global CDN SaaS still leads for anycast PoPs, volumetric DDoS absorption, and managed WAF rulesets.
+
+
+
+**Frameworks for building custom systems**:  
+
+**Caddy** for automatic TLS and modern defaults; **Nginx** or **HAProxy** for battle-tested proxying; **Traefik** / **Envoy** for dynamic cloud-native routing; **Varnish** for caching layers.  
+
+Fully open origin and reverse-proxy stacks are the industry norm; CDNs complement them at the edge.
+
+
+
+## How to Contribute
+
+
+
+1. Fork the repo.
+
+2. Add/edit entries in `README.md` (follow existing format).
+
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
+
+4. Submit PR with a short explanation.
+
+
+
+Star the repo if you find it useful!
+
+
+
+## Disclaimer
+
+
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+
+- Reverse proxies and edge servers are high-value attack targets. Keep software updated, restrict admin interfaces, configure TLS carefully, and rate-limit aggressively. Misconfigured proxies can expose internal services.
+
+- Open-source servers offer full control and transparency. Commercial CDNs and ADCs shift global capacity and managed security to the vendor. Neither replaces secure application design and least-privilege networking.
+
+
+
+---
+
+
+
+**Made for platform engineers, SREs, and anyone putting HTTP services on the internet.**  
+
 Let's expand open web servers and proxies while recognizing the global edge scale that leading CDN platforms deliver.
